@@ -207,6 +207,75 @@
 .pt-20 {
     padding-top: 20px;
 }
-.pt-30{
+
+.pt-30 {
     padding-top: 30px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-35 {
+    gap: 25px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-box-lite {
+    width: 205px;
+}
+
+.info-box {
+    padding: 38px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.justi-content-center {
+    justify-content: center;
+}
+
+.numbers-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.numbers-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.border-right-1 {
+    border-right: 2px solid #EEEFF2;
+}
+.border-right-2{
+    border-right: 2px solid #eeeff2;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
 }
