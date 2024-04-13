@@ -191,7 +191,7 @@
     outline: none;
     border: none;
     box-shadow: 7px 12px #F5383859;
-    ;
+
 }
 
 .btn-started:hover {
@@ -306,21 +306,154 @@
     line-height: 30px;
     text-align: left;
 }
-.pt-40{
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-40 {
     padding-top: 40px;
 }
-.pt-30{
+
+.pt-30 {
     padding-top: 30px;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.pb-17{
+
+.pb-17 {
     padding-bottom: 17px;
 }
-.align-items-end{
+
+.align-items-end {
     align-items: end;
+}
+
+.background-color {
+    background-color: #FAFAFA;
+}
+
+.choose-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.let-choose {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 555px;
+}
+
+.free-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.section-3-box {
+    border: 2px solid #DDDDDD;
+}
+
+.section-3-box:hover {
+    border: 2px solid #F53838;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.box-last-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.box-last-text span {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.select-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+    color: #F53838;
+    padding: 13px 62px 13px 62px;
+    border-radius: 35px;
+    border: 2px solid #F53838;
+}
+
+.select-btn:hover {
+    background-color: #F53838;
+    color: white;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.standard-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.premium-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.Unlimited-Bandwitch {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 }
