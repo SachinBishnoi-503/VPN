@@ -7,7 +7,8 @@ $('.sliderbox').slick({
     prevArrow: ".prev",
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed:2000,
     infinite: true,
     variableWidth: true,
     responsive: [
