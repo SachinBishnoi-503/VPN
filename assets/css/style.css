@@ -40,6 +40,10 @@
     position: fixed;
 }
 
+.nav-background {
+    background-color: #FDFDFD;
+}
+
 .justi-space-between {
     justify-content: space-between;
 }
@@ -190,7 +194,8 @@
     border-radius: 12px;
     outline: none;
     border: none;
-    box-shadow: 7px 12px #F5383859;
+    box-shadow: 5px 5px 10px rgba(173, 34, 34, 0.5);
+    transition: 0.4s;
 
 }
 
@@ -222,10 +227,6 @@
 
 .w-100 {
     width: 100%;
-}
-
-.align-items-center {
-    align-items: center;
 }
 
 .gap-35 {
@@ -366,6 +367,7 @@
 
 .section-3-box {
     border: 2px solid #DDDDDD;
+    background-color: white;
 }
 
 .section-3-box:hover {
@@ -547,14 +549,11 @@
 .slider-box {
     border: 2px solid rgb(175, 175, 175);
     min-width: 400px;
-    min-Height: 200px;
+    height: 220px;
     padding: 15px;
     border-radius: 10px;
     cursor: pointer;
-}
 
-.d-flex {
-    display: flex;
 }
 
 .justify-content-space-btw {
@@ -565,7 +564,7 @@
     flex-direction: column unset;
 }
 
-.align-center {
+.align-items-center {
     align-items: center;
 }
 
@@ -609,6 +608,11 @@
 .slick-para-3 {
     max-width: 340px;
     padding-top: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 }
 
 .gap-15 {
@@ -888,4 +892,299 @@
 
 .links-footer:hover {
     color: red;
+}
+
+.menubar {
+    display: none;
+}
+
+.images-apps {
+    width: 230px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn-sign {
+    display: none;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.slick-dots {
+    bottom: -25px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+@media (max-width:992px) {
+    .menubar {
+        width: 40px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        z-index: 100;
+    }
+
+    .menubar span {
+        height: 5px;
+        width: 100%;
+        background-color: red;
+        border-radius: 3px;
+    }
+
+    .nav-items {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .sign-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .md-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #F53855;
+        background-color: white;
+        padding: 10px 24px 10px 22px;
+        border: 2px solid red;
+        border-radius: 30px;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F53855;
+        color: white;
+    }
+
+    .md-column-revrse {
+        flex-direction: column-reverse;
+    }
+
+    .md-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .border-right-2 {
+        border: none;
+    }
+
+    .md-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .md-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+
+    }
+
+    .md-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .md-align-items-center {
+        align-items: center;
+    }
+
+    .md-justi-center {
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width:576px) {
+
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #F53855;
+        background-color: white;
+        padding: 10px 24px 10px 22px;
+        border: 2px solid;
+        border-radius: 30px;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F53855;
+        color: white;
+    }
+
+    .menu-btn {
+        font-family: "Rubik", sans-serif;
+        color: #0B132A;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+    }
+
+    .menu-btn:hover {
+        color: #F53855;
+    }
+
+    .border-right-1 {
+        border: none;
+    }
+
+
+    .sm-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-direction-column {
+        flex-direction: column;
+    }
+
+    .sign-in {
+        display: none;
+    }
+
+    .btn-sign {
+        display: none;
+    }
+
+    .sm-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-align-items-center {
+        align-items: center;
+
+    }
+
+    .subscribe-btn {
+        font-family: "Rubik", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: left;
+        padding: 15px 40px;
+        background-color: #F53838;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(173, 34, 34, 0.5);
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .subscribe-btn:hover {
+        background-color: white;
+        color: #F53838;
+    }
+
+    .slick-arrow-buttons {
+        display: none;
+    }
+
+    .slick-dots {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        position: absolute !important;
+        left: 2% !important;
+
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn-sign {
+        display: block;
+    }
+
+    /* .menu-btn {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: red;
+    }
+
+    .menu-btn:hover {
+        color: red;
+    } */
+
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #F53855;
+        background-color: white;
+        padding: 10px 24px 10px 22px;
+        border: 2px solid red;
+        border-radius: 30px;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F53855;
+        color: white;
+    }
+
 }

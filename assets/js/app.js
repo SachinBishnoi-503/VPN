@@ -8,7 +8,7 @@ $('.sliderbox').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed:2000,
+    autoplaySpeed: 2000,
     infinite: true,
     variableWidth: true,
     responsive: [
@@ -40,3 +40,8 @@ $('.sliderbox').slick({
         }
     ]
 });
+let menuicon = document.querySelector(".menubar");
+let menulist = document.querySelector(".nav-items");
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
+})

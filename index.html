@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPN</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/fire-image.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,12 +17,12 @@
 
 <body>
     <header>
-        <nav class="postion-fixed w-100 py-15">
+        <nav class="postion-fixed w-100 py-15 nav-background z-2">
             <div class="container">
                 <div class="d-flex align-items-center justi-space-between">
                     <div class="d-flex align-items-center gap-10">
-                        <div>
-                            <img src="./assets/images/fire-image.png" alt="">
+                        <div class="nav-image-fire">
+                            <img src="./assets/images/fire-image.png" alt="no-image">
                         </div>
                         <p class="lasles cursor-pointer">Lasles <b>VPN</b></p>
                     </div>
@@ -31,21 +32,29 @@
                         <a class="navbar-items" href="">Pricing</a>
                         <a class="navbar-items" href="">Testimonials</a>
                         <a class="navbar-items" href="">Help</a>
+                        <div class="d-flex align-center sm-direction-column gap-25">
+                              <a class="menu-btn cursor-pointer" href="">Sign in</a>
+                            <button class="menu-btn-sign cursor-pointer">Sign Up</button>
+                        </div>
                     </div>
 
-                    <div class="buttons d-flex gap-15 align-items-center">
+                    <div class="buttons d-flex gap-15 align-items-center sign-btn">
                         <a class="sign-in" href="">Sign In</a>
                         <button class="btn-sign cursor-pointer">Sign Up</button>
                     </div>
+                    <div class="menubar cursor-pointer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
-            </div>
         </nav>
     </header>
     <!-- .....................section-1................. -->
     <section class="pt-120">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="row align-items-center md-column-revrse">
+                <div class="col-6 md-col-12 sm-col-12">
                     <div class="">
                         <p class="heading-first">Want anything to be easy with <span>LaslesVPN.</span></p>
                         <p class="first-paragraph pt-20">Provide a network for all your needs with ease and fun using
@@ -57,12 +66,12 @@
                         <button class="btn-started pt-20">Get Started</button>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 md-col-12 sm-col-12">
                     <img class="w-100" src="./assets/images/sectionifirst-image.svg" alt="no-image">
                 </div>
             </div>
             <div class="info-box d-flex flex-wrap mt-90">
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12">
                     <div class=" d-flex justi-content-center border-right-1 ">
                         <div class="d-flex align-items-center gap-35 py-30 info-box-lite">
                             <span>
@@ -81,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12">
                     <div class=" d-flex justi-content-center border-right-2">
                         <div class="d-flex align-items-center gap-35 py-30 info-box-lite">
                             <span>
@@ -100,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 md-col-6 sm-col-12">
                     <div class=" d-flex justi-content-center">
                         <div class="d-flex align-items-center gap-35 py-30 info-box-lite">
                             <span>
@@ -126,10 +135,10 @@
     <section class="pt-40">
         <div class="container">
             <div class="row d-flex align-items-end">
-                <div class="col-6">
+                <div class="col-6 md-col-12">
                     <img class="w-100" src="./assets/images/section-2-image.png" alt="no-image">
                 </div>
-                <div class="col-6">
+                <div class="col-6 md-col-12">
                     <div class="">
                         <p class="we-provide">We Provide Many Features You Can Use</p>
                         <p class="you-can pt-30">You can explore the features that we provide with fun and have their
@@ -193,8 +202,8 @@
                         cheerfully.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4 pt-60">
+            <div class="row justi-content-center">
+                <div class="col-4 pt-60 md-col-6 sm-col-12">
                     <div class="section-3-box d-flex justi-content-center align-items-center flex-direction-column">
                         <img class="pt-120" src="./assets/images/gift-box-1.png" alt="no-image">
                         <div class="pt-30">
@@ -251,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 pt-60">
+                <div class="col-4 pt-60 md-col-6 sm-col-12">
                     <div class="section-3-box d-flex justi-content-center align-items-center flex-direction-column">
                         <img class="pt-120" src="./assets/images/gift-box-1.png" alt="no-image">
                         <div class="pt-30">
@@ -319,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 pt-60">
+                <div class="col-4 pt-60 md-col-6 sm-col-12">
                     <div class="section-3-box d-flex justi-content-center align-items-center flex-direction-column">
                         <img class="pt-120" src="./assets/images/gift-box-1.png" alt="no-image">
                         <div class="pt-30">
@@ -412,26 +421,36 @@
                         move locations.</p>
                 </div>
             </div>
-            <div class="d-flex justi-content-center pt-155 " >
+            <div class="d-flex justi-content-center pt-155 ">
                 <img class="w-100" src="./assets/images/section4-Global-image.png" alt="no-image">
             </div>
-            <div class="d-flex align-items-center justi-space-between pt-35 over-flow-auto">
+            <div class="d-flex align-items-center justi-space-between pt-35 over-flow-auto gap-40">
+               <div class="images-apps">
                 <a href="https://www.netflix.com/in/" target="_blank">
-                    <img src="./assets/images/netflix-image.png" alt="no-image" >
+                    <img src="./assets/images/netflix-image.png" alt="no-image">
                 </a>
-                <a href="https://www.reddit.com/?rdt=42416" target="_blank">
-                    <img src="./assets/images/reddit-image.png" alt="no-image">
-                </a>
-                <a
-                    href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=676742245123&hvpos=&hvnetw=g&hvrand=2989266304324038004&hvqm" target="_blank">
-                    <img src="./assets/images/amazon-image-2.png" alt="no-image">
-                </a>
-                <a href="https://discord.com/" target="_blank">
-                    <img src="./assets/images/discord-image.png" alt="no-image">
-                </a>
-                <a href="https://open.spotify.com/" target="_blank">
-                    <img src="./assets/images/spotify-image.png" alt="no-image">
-                </a>
+               </div>
+                <div class="images-apps">
+                    <a href="https://www.reddit.com/?rdt=42416" target="_blank">
+                        <img src="./assets/images/reddit-image.png" alt="no-image">
+                    </a>
+                </div>
+                <div class="images-apps">
+                    <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=676742245123&hvpos=&hvnetw=g&hvrand=2989266304324038004&hvqm"
+                        target="_blank">
+                        <img src="./assets/images/amazon-image-2.png" alt="no-image">
+                    </a>
+                </div>
+                <div class="images-apps">
+                    <a href="https://discord.com/" target="_blank">
+                        <img src="./assets/images/discord-image.png" alt="no-image">
+                    </a>
+                </div>
+                <div class="images-aaps">
+                    <a href="https://open.spotify.com/" target="_blank">
+                        <img src="./assets/images/spotify-image.png" alt="no-image">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -450,11 +469,11 @@
         <div class="mt-60">
             <div class="container">
                 <div class="sliderbox">
-                    <div class="slider-box">
+                    <div class="slider-box ">
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
                             <div class="d-flex align-center justify-content-space-btw">
                                 <div class="d-flex align-center viezh">
-                                    <div>
+                                    <div class="slider-image">
                                         <img src="./assets/images/slider-man-1.png" alt="image">
                                     </div>
                                     <div class="para-1 pl-20">
@@ -486,7 +505,7 @@
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
                             <div class="d-flex align-center justify-content-space-btw">
                                 <div class="d-flex align-center">
-                                    <div>
+                                    <div class="slider-image">
                                         <img src="./assets/images/slider-girl-2.png" alt="image">
                                     </div>
                                     <div class="para-1 pl-20">
@@ -514,7 +533,7 @@
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
                             <div class="d-flex align-center justify-content-space-btw">
                                 <div class="d-flex align-center">
-                                    <div>
+                                    <div class="slider-image">
                                         <img src="./assets/images/kim-young-jou.png" alt="image">
                                     </div>
                                     <div class="para-1 pl-20">
@@ -542,7 +561,7 @@
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
                             <div class="d-flex align-center justify-content-space-btw">
                                 <div class="d-flex align-center">
-                                    <div>
+                                    <div class="slider-image">
                                         <img src="./assets/images/slider-man-1.png" alt="image">
                                     </div>
                                     <div class="para-1 pl-20">
@@ -574,7 +593,7 @@
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
                             <div class="d-flex align-center justify-content-space-btw">
                                 <div class="d-flex align-center">
-                                    <div>
+                                    <div class="slider-image">
                                         <img src="./assets/images/slider-girl-2.png" alt="image">
                                     </div>
                                     <div class="para-1 pl-20">
@@ -622,7 +641,7 @@
     <!-- ......................section-6....... -->
     <section class=" pb-40 gradient">
         <div class="container">
-            <div class="d-flex justi-space-between align-items-center mt-57 heading-box flex-wrap">
+            <div class="d-flex justi-space-between align-items-center mt-57 heading-box flex-wrap md-justi-center">
                 <div class="mt-20">
                     <h2 class="subscribe-now">Subscribe Now for Get Special Features!</h2>
                     <p class="let-subscribe mt-20">Let's subscribe with us and find the fun.</p>
@@ -637,7 +656,7 @@
     <footer class="backgroundcolor-footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 mt-20">
+                <div class="col-4 mt-20 md-col-12">
                     <div class="d-flex align-items-center gap-10">
                         <div class="">
                             <img src="./assets/images/fire-image.png" alt="no-image">
@@ -732,10 +751,10 @@
                     </div>
                     <p class="lastbottom-laslesvpn">©2020Lasles <span>VPN</span></p>
                 </div>
-                <div class="col-8">
-                    <div class="row pb-40">
-                        <div class="col-4 mt-20 d-flex align-items-end flex-direction-column">
-                            <div class="blank  d-flex align-items-end flex-direction-column">
+                <div class="col-8 md-col-12">
+                    <div class="row pb-40 ">
+                        <div class="col-4 mt-20 sm-col-6 d-flex align-items-end  flex-direction-column sm-align-items-center md-align-items-center">
+                            <div class="blank  d-flex align-items-end flex-direction-column ">
                                 <ul>
                                     <li class="product">Product</li>
                                     <a href="#">
@@ -759,7 +778,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4 mt-20 d-flex align-items-end flex-direction-column">
+                        <div class="col-4 mt-20 sm-col-6 d-flex align-items-end flex-direction-column">
                             <div class="blank">
                                 <ul>
                                     <li class="product">Engage</li>
@@ -784,7 +803,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4 mt-20 d-flex align-items-end flex-direction-column">
+                        <div class="col-4 mt-20  sm-col-6 d-flex align-items-end flex-direction-column sm-align-items-center">
                             <div class="blank">
                                 <ul>
                                     <li class="product">Earn Money</li>
