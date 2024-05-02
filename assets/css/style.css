@@ -1186,5 +1186,8 @@
         background-color: #F53855;
         color: white;
     }
+    .sm-mt-5{
+        margin-top: 5px;
+    }
 
 }
