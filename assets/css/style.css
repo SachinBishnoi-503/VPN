@@ -41,7 +41,7 @@
 }
 
 .nav-background {
-    background-color: #FDFDFD;
+    background-color: #FFFFFF;
 }
 
 .justi-space-between {
@@ -367,6 +367,7 @@
 
 .section-3-box {
     border: 2px solid #DDDDDD;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -399,6 +400,10 @@
     text-align: center;
 }
 
+.pb-120 {
+    padding-bottom: 120px;
+}
+
 .select-btn {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
@@ -406,6 +411,7 @@
     line-height: 18.96px;
     text-align: left;
     color: #F53838;
+    background-color: #ffffff;
     padding: 13px 62px 13px 62px;
     border-radius: 35px;
     border: 2px solid #F53838;
@@ -568,7 +574,7 @@
     align-items: center;
 }
 
-.pl-20{
+.pl-20 {
     padding-left: 20px;
 }
 
@@ -683,7 +689,7 @@
 }
 
 .slick-dots {
-    right: 40% !important;
+    right: 44% !important;
     bottom: -20% !important;
 }
 
@@ -927,6 +933,10 @@
     gap: 25px;
 }
 
+.gap-30 {
+    gap: 30px;
+}
+
 @media (max-width:992px) {
     .menubar {
         width: 40px;
@@ -1036,6 +1046,25 @@
 
     .md-justi-center {
         justify-content: center;
+    }
+
+    .we-provide {
+        font-family: "Rubik", sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: left;
+        max-width:unset !important;
+    }
+
+    .you-can {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        max-width: unset !important;
+
     }
 
 
@@ -1186,7 +1215,8 @@
         background-color: #F53855;
         color: white;
     }
-    .sm-mt-5{
+
+    .sm-mt-5 {
         margin-top: 5px;
     }
 

@@ -27,19 +27,19 @@
                         <p class="lasles cursor-pointer">Lasles <b>VPN</b></p>
                     </div>
                     <div class="nav-items text-align-items-center gap-40 d-flex ">
-                        <a class="navbar-items" href="">About</a>
-                        <a class="navbar-items" href="">Features</a>
-                        <a class="navbar-items" href="">Pricing</a>
-                        <a class="navbar-items" href="">Testimonials</a>
-                        <a class="navbar-items" href="">Help</a>
+                        <a class="navbar-items" href="#About" >About</a>
+                        <a class="navbar-items" href="#features" >Features</a>
+                        <a class="navbar-items" href="#Pricing" >Pricing</a>
+                        <a class="navbar-items" href="#Testimonials" >Testimonials</a>
+                        <a class="navbar-items" href="#Help" >Help</a>
                         <div class="d-flex align-items-center sm-direction-column gap-25">
-                              <a class="menu-btn cursor-pointer" href="">Sign in</a>
-                            <button class="menu-btn-sign cursor-pointer">Sign Up</button>
+                              <a class="menu-btn cursor-pointer" href="" >Sign in</a>
+                            <button class="menu-btn-sign cursor-pointer" >Sign Up</button>
                         </div>
                     </div>
 
-                    <div class="buttons d-flex gap-15 align-items-center sign-btn">
-                        <a class="sign-in " href="">Sign In</a>
+                    <div class="buttons d-flex gap-30 align-items-center sign-btn">
+                        <a class="sign-in " href="" >Sign In</a>
                         <button class="btn-sign cursor-pointer">Sign Up</button>
                     </div>
                     <div class="menubar cursor-pointer">
@@ -133,8 +133,8 @@
     </section>
     <!-- ......................section-2................. -->
     <section class="pt-40">
-        <div class="container">
-            <div class="row d-flex align-items-end">
+        <div class="container" id="Testimonials">
+            <div class="row d-flex align-items-end pb-120">
                 <div class="col-6 md-col-12">
                     <img class="w-100" src="./assets/images/section-2-image.png" alt="no-image">
                 </div>
@@ -194,7 +194,7 @@
     </section>
     <!-- ......................section-3...............-->
     <section class="background-color">
-        <div class="container">
+        <div class="container" id="Pricing">
             <div class="d-flex justi-content-center">
                 <div class="pt-60">
                     <h2 class="choose-plan">Choose Your Plan</h2>
@@ -412,7 +412,7 @@
     </section>
     <!-- ......................section-4...............-->
     <section>
-        <div class="container">
+        <div class="container" id="About">
             <div class="d-flex justi-content-center">
                 <div class="pt-150">
                     <h1 class="huge-global">Huge Global Network <span>of Fast VPN</span> </h1>
@@ -467,7 +467,7 @@
             </div>
         </div>
         <div class="mt-60">
-            <div class="container">
+            <div class="container" id="features">
                 <div class="sliderbox">
                     <div class="slider-box ">
                         <div class="d-flex justify-content-space-btw flex-direction-col-unset">
@@ -654,7 +654,7 @@
     </section>
     <!-- ........................section-7........... -->
     <footer class="backgroundcolor-footer"> 
-        <div class="container">
+        <div class="container" id="Help">
             <div class="row">
                 <div class="col-4 mt-20 md-col-12">
                     <div class="d-flex align-items-center gap-10">
@@ -667,7 +667,7 @@
                     <p class="last-paragraph pt-20"><span>LaslesVPN</span> is a private virtual network that has unique
                         features and has high security.</p>
                     <div class="d-flex align-items-center gap-20 pt-30">
-                        <a href="https://www.facebook.com/"> <span><svg width="70" height="71" viewBox="0 0 70 71"
+                        <a href="https://www.facebook.com/-" target="_blank"> <span><svg width="70" height="71" viewBox="0 0 70 71"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_34717_8412)">
                                         <circle cx="34.7999" cy="22.38" r="16.7999" fill="#F53838" />
@@ -694,7 +694,7 @@
                                     </defs>
                                 </svg>
                             </span> </a>
-                        <a href="https://twitter.com/"> <span><svg width="71" height="71" viewBox="0 0 71 71"
+                        <a href="https://twitter.com/" target="_blank"> <span><svg width="71" height="71" viewBox="0 0 71 71"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_34717_8415)">
                                         <circle cx="35.3996" cy="22.38" r="16.7999" fill="#F53838" />
@@ -721,7 +721,7 @@
                                     </defs>
                                 </svg>
                             </span> </a>
-                        <a href="https://www.instagram.com/"> <span><svg width="70" height="71" viewBox="0 0 70 71"
+                        <a href="https://www.instagram.com/" target="_blank"> <span><svg width="70" height="71" viewBox="0 0 70 71"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_d_34717_8418)">
                                         <circle cx="35.0001" cy="22.38" r="16.7999" fill="#F53838" />
@@ -847,6 +847,15 @@
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
